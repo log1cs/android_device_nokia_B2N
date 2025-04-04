@@ -24,9 +24,15 @@ namespace_imports = [
     'vendor/nokia/sdm660-common',
 ]
 
+blob_fixups: blob_fixups_user_type = {
+    ('vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so', 'vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so'): blob_fixup()
+        .replace_needed('libhidlbase.so', 'libhidlbase-v32.so'),
+}  # fmt: skip
+
 module = ExtractUtilsModule(
     'B2N',
     'nokia',
+    blob_fixups=blob_fixups,
     namespace_imports=namespace_imports,
     add_firmware_proprietary_file=True,
 )
