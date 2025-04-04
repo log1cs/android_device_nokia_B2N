@@ -1,4 +1,5 @@
-# Firmware - from PL2_sprout (QKQ1.190828.002) - (OTA Image).
+## All proprietary firmware from this list, unless pinned and noted otherwise,
+## are from B2N (00WW_4_16B).
 
 abl.img;AB
 bluetooth.img;AB
@@ -16,7 +17,6 @@ modem.img;AB
 nvdef.img;AB
 pmic.img;AB
 rpm.img;AB
-splash.img;AB
 systeminfo.img;AB
 tz.img;AB
 xbl.img;AB
