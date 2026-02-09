@@ -2,7 +2,7 @@
 ## are from B2N_sprout (QKQ1.190828.002).
 
 # Current libraries with ELF check disabled:
-# libmmcamera2_cpp_module, libmmcamera2_is, libmmcamera2_stats_lib, libmmcamera2_stats_algorithm, libmmcamera2_q3a_core, libmmcamera2_mct, libmmcamera2_imglib_modules, libmmcamera2_iface_modules, libmmcamera_interface, libmmcamera2_isp_modules, libmmcamera2_stats_modules depends on intrinsic symbols which are difficult to shim like __aeabi_d2lz, __aeabi_ldivmod, __aeabi_ul2d, etc...
+# libmmcamera2_cpp_module, libmmcamera2_is, libmmcamera2_stats_lib, libmmcamera2_stats_algorithm, libmmcamera2_q3a_core, libmmcamera2_mct, libmmcamera2_imglib_modules, libmmcamera2_iface_modules, libmmcamera2_isp_modules, libmmcamera2_stats_modules depends on intrinsic symbols which are difficult to shim like __aeabi_d2lz, __aeabi_ldivmod, __aeabi_ul2d, etc...
 
 # Audio (Configs)
 vendor/etc/audio_platform_info_b2n.xml:vendor/etc/audio_platform_info.xml
@@ -64,7 +64,6 @@ vendor/lib/libdepthmapwrapper.so|8d5f03354650ddea19fc8781c824fbb96105a86e
 vendor/lib/libfih_camera_effect.so|360a9dc97b27b95025860c8dc9508701f81ae5e3
 vendor/lib/libflash_dummy_flash.so|481bd2fccd85401d4834d96e8e4f78f74d37e31e
 vendor/lib/libflash_pmic.so|c016a2e78f0f4d11ae40ca6f383816b4fa4abf5c
-vendor/lib/libhal_dbg.so|17b9637d5cd37ff2b76446a355a69f9b6a66afaa
 vendor/lib/libimage_matting.so|a05558225578eddfebfbc32bddf75ac18f897708
 vendor/lib/libjpegdhw.so|21e70be964a1ce408e5a44a642787b818ef3792b
 vendor/lib/libjpegdmahw.so|90698ab1fee9a756f4e5f97d740a75664f7de649
@@ -238,7 +237,6 @@ vendor/lib/libmmcamera_hvx_add_constant.so|960bb2387a793af68f3748802f3a0583dcdea
 vendor/lib/libmmcamera_hvx_grid_sum.so|222c0747dddba59fb41bcf8d4df16bd08dc71049
 vendor/lib/libmmcamera_imglib.so|2ce9c9a1c3dbbe71f016007cb019f8afbe116b0c
 vendor/lib/libmmcamera_imglib_faceproc_adspstub.so|9560871c0c94d2535dd1a270a1c01d6e14bbe7c8
-vendor/lib/libmmcamera_interface.so;DISABLE_CHECKELF|929d8ed834872bbb29fceb0943e00cf7c21c9e51
 vendor/lib/libmmcamera_isp_abf48.so|ed9c39272d4c71987f03eca413f3db66afc421d4
 vendor/lib/libmmcamera_isp_aec_bg_stats47.so|c4b210ea9719223aad75031c11afdaa36cf42cd6
 vendor/lib/libmmcamera_isp_bf_stats47.so|c84825c6f944989195407c42b7dadbe4fd061428
