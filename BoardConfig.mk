@@ -22,6 +22,9 @@ BOARD_USES_ALSA_AUDIO := true
 # Inherit from nokia sdm660-common
 -include device/nokia/sdm660-common/BoardConfigCommon.mk
 
+# Audio
+AUDIO_FEATURE_ENABLED_EXTENDED_COMPRESS_FORMAT := true
+
 # Architecture
 TARGET_CPU_VARIANT_RUNTIME := cortex-a73
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a73
